@@ -8,10 +8,8 @@ $key = date('dmy');
 if($token !==  $key) { die( 'Token Not Match' ); }
 
 
-
-
-$siteName 	= 'http://stevewoodremovals.co.uk/';
-$folderName = 'SWR_Bakup';
+$siteName 	= 'http://domain.com/';
+$folderName = 'folder';
 
 //die('Change folder name before start new zip.');
 
