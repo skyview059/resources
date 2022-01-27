@@ -1,0 +1,64 @@
+Nagordola 	 http://nagordola.com.bd
+Rangdhanu File Server 	 http://fs.rangdhanu.live
+ABCMovies 	 http://abcmoviesbd.com
+SunPlex 	 http://sunplex.net
+Citech Movies 	 http://203.83.177.225
+Tejpata 	 http://tajpata.com
+Movie Mela 	 http://www.moviemela.live
+Crazy CTG 	 http://crazyctg.com
+MegaPlex BD 	 http://www.megaplexbd.com
+Surzo Mama 	 http://103.85.235.254
+Fun Time BD 	 http://funtimebd.com
+MLS BD 	 http://mls-bd.com
+Fmovies 	 http://fmovies.to/home
+Kalponik 	 http://www.kalponik.net.bd
+Relax Time 	 http://103.29.127.14
+MovieBox BD 	 http://movieboxbd.com
+Unique FTP 	 http://103.91.144.230
+ABCFlix BD 	 http://abcflixbd.com
+GC Global 	 http://103.113.16.46
+DFN BD Media 	 http://media.dfnbd.net
+Panda Club BD 	 http://pandaclubbd.com
+MLWBD 	 http://mlwbd.mobi
+CTG Movies 	 http://ctgmovies.com
+iBox 	 http://103.135.208.2
+MyBDPlex 	 http://mybdplex.com
+MediaLink24 	 http://medialink24.net
+SebaIT 	 http://103.195.1.50
+Bol Movies 	 http://www.bolmovies.com
+Explore Online 	 http://103.222.20.150
+Timenai 	 http://timenai.com
+E-Box File Server 	 http://fileserver.ebox.live
+BossBD 	 http://www.bossbd.net
+Dhaka Movie 	 http://www.dhakamovie.com
+Smallscreen 	 http://103.3.226.208
+Quick Online 	 http://quickonlineftp.com
+Tejpata File Server 	 http://file.tajpata.com
+Netmatrix BD 	 http://media.netmatrixbd.com
+Discovery FTP Movies 	 http://movies.discoveryftp.net
+Movie Haat 	 http://moviehaat.net
+Bongo BD 	 http://bongobd.com
+Mars Movies World 	 http://mars.bolbd.net
+iHub 	 http://ihub.live
+Natural BD 	 http://www.naturalbd.com
+Showtime BD 	 http://showtimebd.com
+Dhaka FTP 	 http://dhakaftp.com
+Cine Bioscope 	 http://www.cinebioscope.com
+Mathanosto 	 http://mathanosto.top
+Movieserver 	 http://www.movieserver.net
+BeeFlix 	 http://www.beeflix.biz
+Dflix File Server 	 http://fs1.dflix.live
+VDO Mela 	 http://vdomela.com
+Skyview Online 	 http://www.timepassbd.live
+CandyBD 	 http://candybd.net
+NeoBD 	 http://www.neobd.net
+Satrong Live 	 http://tv.satrong.live
+CTG IP TV 	 http://www.ctgiptv.com
+PowerNet BD 	 http://tv.powernetbd.com
+ThunderBD Live 	 http://tv.thunderbd.com
+FlashNet BD 	 http://tv.flashnetbd.net
+DugDugi Live 	 http://dugdugilive.com
+iBoxBD Live 	 http://iboxbd.live
+Amrbd 	 http://amrbd.com
+DFlix Live 	 http://tv.dflix.live
+JagoBD 	 http://www.jagobd.com
