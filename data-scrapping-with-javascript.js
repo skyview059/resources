@@ -29,3 +29,11 @@ document.querySelectorAll("table.cust_table tbody tr").forEach(function(item){
 	items += item.querySelector('td:nth-child(4) span.num').innerHTML  + "\t\r\n";	
 })
 console.log( items );
+
+
+/* For Profile Photo */
+data-imgperflogname="profileCoverPhoto";
+var items = '';
+document.querySelectorAll("img").forEach(function(item){	 
+    console.log( item.getAttribute('src') );	
+});
