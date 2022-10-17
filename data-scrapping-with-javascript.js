@@ -26,7 +26,7 @@ var items = '';
 document.querySelectorAll("table.cust_table tbody tr").forEach(function(item){	 
 	items += item.querySelector('td:nth-child(1) span').innerHTML + "\t";
 	items += item.querySelector('td:nth-child(2)').innerHTML  + "\t";
-	items += item.querySelector('td:nth-child(4) span.num').innerHTML  + "\t\r\n";	
+	items += item.querySelector('td:nth-child(4)').innerText  + "\t\r\n";	
 })
 console.log( items );
 
