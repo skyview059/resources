@@ -31,6 +31,19 @@ document.querySelectorAll("table.cust_table tbody tr").forEach(function(item){
 console.log( items );
 
 
+/* Set & Get From Localstorage */
+var bb = localStorage.getItem('bb');
+var items = '';
+document.querySelectorAll("table.cust_table tbody tr").forEach(function(item){	 
+	items += item.querySelector('td:nth-child(1) span').innerHTML + "\t";
+	items += item.querySelector('td:nth-child(2)').innerHTML  + "\t";
+	items += item.querySelector('td:nth-child(4)').innerText  + "\t\r\n";	
+})
+localStorage.setItem('bb', ( bb + items) );
+
+
+
+
 /* For Profile Photo */
 data-imgperflogname="profileCoverPhoto";
 var items = '';
