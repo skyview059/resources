@@ -50,3 +50,15 @@ var items = '';
 document.querySelectorAll("img").forEach(function(item){	 
     console.log( item.getAttribute('src') );	
 });
+
+
+
+/* For Code Canyone */
+/* https://codecanyon.net/user/activeitzone/portfolio */
+var items = '';
+document.querySelectorAll("ul li.js-google-analytics__list-event-container").forEach(function(item){	 
+	items += item.querySelector('.product-list__heading a').innerHTML + "\t";
+	items += item.querySelector('.product-list__price-desktop').innerHTML  + "\t";
+	items += item.querySelector('.product-list__sales-desktop').innerText  + "\t\r\n";	
+})
+console.log( items );
