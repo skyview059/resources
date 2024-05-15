@@ -2,8 +2,8 @@
    My Path D:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\ ( into dir url type "cmd" & press enter key )
 
 2. into terminal type "mysql -u username -p " and press enter & press enter key for empty password 
-
-3. mysql> SOURCE /path/to/file.sql run command
+3. mysql> USE my_database;
+3. mysql> "SOURCE /path/to/file.sql" run command
 
 Full Document: https://www.warp.dev/terminus/mysql-import-sql-file
 
