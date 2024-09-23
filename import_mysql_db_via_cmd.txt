@@ -15,5 +15,4 @@ Full Document: https://www.warp.dev/terminus/mysql-import-sql-file
 
 3   USE my_database
 
-4   SOURCE C:\Users\Khairul Azam\Downloads\portal.sql
-
+4   SOURCE C:\Users\Khairul Azam\Downloads\cmd_db.sql
