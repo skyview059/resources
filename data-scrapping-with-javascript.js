@@ -62,3 +62,35 @@ document.querySelectorAll("ul li.js-google-analytics__list-event-container").for
 	items += item.querySelector('.product-list__sales-desktop').innerText  + "\t\r\n";	
 })
 console.log( items );
+
+
+/* Bulk SMS Campain log download */
+var sms = localStorage.getItem('sms');
+var items = '';
+document.querySelectorAll("table#sms_log_history_list tbody tr").forEach(function(item){	 
+	items += item.querySelector('td:nth-child(2)').innerHTML + "\t";
+	items += item.querySelector('td:nth-child(3)').innerHTML  + "\t";
+	items += item.querySelector('td:nth-child(7)').innerText  + "\t\r\n";	
+})
+console.log( items )
+
+/* Bulk SMS History download */
+var sms = localStorage.getItem('sms');
+var items = '';
+document.querySelectorAll("table#sms_log_list tbody tr").forEach(function(item){	 
+	items += item.querySelector('td:nth-child(3)').innerHTML + "\t";
+	items += item.querySelector('td:nth-child(4) p.hidden').innerText.replace(/(\r\n|\n|\r)/gm, " ")  + "\t";
+    	items += item.querySelector('td:nth-child(5)').innerHTML  + "\t";
+    	items += item.querySelector('td:nth-child(6)').innerHTML  + "\t";
+    	items += item.querySelector('td:nth-child(7)').innerHTML  + "\t";
+	items += item.querySelector('td:nth-child(8)').innerText  + "\t\r\n";	
+})
+console.log( items )
+
+
+
+
+
+
+
+
