@@ -91,6 +91,7 @@ console.log( items )
 
 
 
+=IF(ISNUMBER(SEARCH("আজকের বাচ্চার", C2)), "Agro", "BLPG")
 
 
 
