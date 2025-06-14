@@ -1,5 +1,27 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
+#RewriteBase /
+#AddHandler application/x-httpd-php81 .php
+
+RewriteCond %{HTTP_HOST} ^flickmedialtd\.com$ [NC]
+RewriteRule ^(.*)$ https://www.flickmedialtd.com/$1 [L,R=301]
+
+# Redirect Trailing Slashes If Not A Folder... - Laravel Pattern
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [L,R=301]
+
+# Send Requests To Front Controller... - Laravel Pattern
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+</IfModule>
+
+
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
 RewriteBase /
 
 # Set PHP Version on 20i.com server
