@@ -88,10 +88,14 @@ document.querySelectorAll("table#sms_log_list tbody tr").forEach(function(item){
 console.log( items )
 
 
-
-
-
 =IF(ISNUMBER(SEARCH("আজকের বাচ্চার", C2)), "Agro", "BLPG")
+
+/* Sum Row in Bulk SMS */
+var qty = 0;
+document.querySelectorAll("table#sms_log_list tbody tr").forEach(function(item){
+    qty += parseInt( item.querySelector('td:nth-child(6)').innerHTML ) || 0;	
+})
+console.log( qty );
 
 
 
