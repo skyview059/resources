@@ -1,0 +1,3 @@
+ea-php83 /opt/cpanel/composer/bin/composer install
+ea-php83 artisan migrate:fresh --seed
+
