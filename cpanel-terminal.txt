@@ -2,6 +2,13 @@ ea-php83 /opt/cpanel/composer/bin/composer install
 ea-php83 artisan migrate:fresh --seed
 
 
+
+-- FreealancerKlub.com cPanel -- Terminal Command 
+---------------------------------------------------------
+ea-php83 /home/freelan8/bin/composer install
+ea-php83 /home/freelan8/bin/composer dump-autoload
+---------------------------------------------------------
+
 ea-php83 artisan config:clear
 ea-php83 artisan route:clear
 ea-php83 artisan cache:clear
