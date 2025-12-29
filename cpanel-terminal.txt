@@ -12,3 +12,15 @@ ea-php83 /home/freelan8/bin/composer dump-autoload
 ea-php83 artisan config:clear
 ea-php83 artisan route:clear
 ea-php83 artisan cache:clear
+ea-php83 artisan optimize:clear
+
+
+How To Clone A Private Github Repository And Deploy It To Cpanel
+https://www.youtube.com/watch?v=dsxRBw3qaN0
+
+1. SSH Key Generate RSA 4096
+	Password: [ removed password input attrbuites ]
+2. Git Clone
+
+3. Set PHP Version
+	AddHandler application/x-httpd-php83 .php
