@@ -13,6 +13,7 @@ ea-php83 artisan config:clear
 ea-php83 artisan route:clear
 ea-php83 artisan cache:clear
 ea-php83 artisan optimize:clear
+ea-php83 artisan storage:link
 
 
 How To Clone A Private Github Repository And Deploy It To Cpanel
