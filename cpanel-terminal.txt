@@ -24,3 +24,22 @@ https://www.youtube.com/watch?v=dsxRBw3qaN0
 
 3. Set PHP Version
 	AddHandler application/x-httpd-php83 .php
+
+
+/* To Revet Uncommited codes */
+
+git status 
+git reset --hard HEAD
+git clean -fd
+git pull
+
+
+
+
+
+
+
+
+
+
+
