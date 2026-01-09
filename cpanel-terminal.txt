@@ -15,6 +15,12 @@ ea-php83 artisan cache:clear
 ea-php83 artisan optimize:clear
 ea-php83 artisan storage:link
 
+ea-php83 artisan queue:work --queue=high,default
+
+--- for cron job --- 
+nohup php artisan queue:work > /var/www/hello-probashi-pos/storage/logs/queue.log 2>&1 &
+
+
 
 How To Clone A Private Github Repository And Deploy It To Cpanel
 https://www.youtube.com/watch?v=dsxRBw3qaN0
