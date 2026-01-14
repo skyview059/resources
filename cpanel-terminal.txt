@@ -10,6 +10,10 @@ ea-php83 /home/freelan8/bin/composer update
 ea-php83 /home/freelan8/bin/composer dump-autoload
 ---------------------------------------------------------
 
+
+ea-php83 artisan backup:run --only-db
+ea-php83 artisan backup:run --only-files
+
 ea-php83 artisan config:clear
 ea-php83 artisan route:clear
 ea-php83 artisan cache:clear
