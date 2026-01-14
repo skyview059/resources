@@ -6,6 +6,7 @@ ea-php83 artisan migrate:fresh --seed
 -- FreealancerKlub.com cPanel -- Terminal Command 
 ---------------------------------------------------------
 ea-php83 /home/freelan8/bin/composer install
+ea-php83 /home/freelan8/bin/composer update
 ea-php83 /home/freelan8/bin/composer dump-autoload
 ---------------------------------------------------------
 
@@ -23,7 +24,7 @@ nohup php artisan queue:work > /var/www/hello-probashi-pos/storage/logs/queue.lo
 
 NODE & NPM Install ( setup node app from cpanel then use terminal )
 
-source /home/freelan8/nodevenv/hrm.freelancerklub.com/18/bin/activate && cd /home/freelan8/hrm.freelancerklub.com
+source /home/freelan8/nodevenv/hrm.freelancerklub.com/22/bin/activate && cd /home/freelan8/hrm.freelancerklub.com
 
 
 
