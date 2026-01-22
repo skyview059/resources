@@ -8,6 +8,8 @@ ea-php83 artisan migrate:fresh --seed
 ea-php83 /home/freelan8/bin/composer install
 ea-php83 /home/freelan8/bin/composer update
 ea-php83 /home/freelan8/bin/composer dump-autoload
+
+ea-php83 /home/freelan8/bin/composer require spatie/image 
 ---------------------------------------------------------
 
 
