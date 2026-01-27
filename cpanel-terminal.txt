@@ -24,6 +24,8 @@ ea-php83 artisan storage:link
 
 ea-php83 artisan queue:work --queue=high,default
 
+php /path/to/laravel/artisan queue:work --stop-when-empty
+
 --- for cron job --- 
 nohup php artisan queue:work > /var/www/hello-probashi-pos/storage/logs/queue.log 2>&1 &
 
