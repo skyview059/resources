@@ -26,15 +26,18 @@ ea-php83 artisan queue:work --queue=high,default
 
 php /path/to/laravel/artisan queue:work --stop-when-empty
 
---- for cron job --- 
-nohup php artisan queue:work > /var/www/hello-probashi-pos/storage/logs/queue.log 2>&1 &
+Working in BDIX cPanel Hosting 
+--------------------------------
+/usr/local/bin/ea-php83 /home/freelan8/hrm.freelancerklub.com/artisan queue:work
+
+Additional Way to Setup 
+cd /home/freelan8/hrm.freelancerklub.com && /usr/local/bin/ea-php83 artisan queue:work --stop-when-empty
+nohup php artisan queue:work > /var/www/hello-probashi-pos/storage/logs/queue.log >/dev/null 2>&1 (Iqbal Bhai used it)
+--------------------------------
 
 
 NODE & NPM Install ( setup node app from cpanel then use terminal )
-
 source /home/freelan8/nodevenv/hrm.freelancerklub.com/22/bin/activate && cd /home/freelan8/hrm.freelancerklub.com
-
-
 
 
 How To Clone A Private Github Repository And Deploy It To Cpanel
