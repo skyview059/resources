@@ -60,6 +60,17 @@ git pull
 
 
 
+সিপ্যানেল এর প্রসেস Kill করতে চাইলে টার্মিনাল থেকে করতে পারবেন।
+
+Process List Command: ps -x
+Kill All process Command: pkill -u freelan8 (cp username)
+
+
+এভাবে প্রসেস গুল কিল করতে পারবেন।
+username এখানে আপনার হোস্টীং এর ইউজার নেম।
+
+
+
 
 
 
