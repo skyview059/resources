@@ -26,6 +26,8 @@ ea-php83 artisan queue:work --queue=high,default
 
 php /path/to/laravel/artisan queue:work --stop-when-empty
 
+/usr/local/bin/ea-php83 /home/freelan8/hrm.freelancerklub.com/artisan queue:work --stop-when-empty  >/dev/null 2>&1
+
 Working in BDIX cPanel Hosting 
 --------------------------------
 /usr/local/bin/ea-php83 /home/freelan8/hrm.freelancerklub.com/artisan queue:work
