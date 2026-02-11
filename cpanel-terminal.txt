@@ -13,6 +13,7 @@ ea-php83 /home/freelan8/bin/composer require spatie/image
 ---------------------------------------------------------
 
 
+
 ea-php83 artisan backup:run --only-db
 ea-php83 artisan backup:run --only-files
 
@@ -75,7 +76,14 @@ username এখানে আপনার হোস্টীং এর ইউজ�
 
 
 
+20i via Putty 
+------------------------------------------------------------
+cd hrm.freelancerklub.com 
+usr/php83/usr/bin/php /usr/local/bin/composer install
 
+php artisan optimize:clear
+php artisan storage:link
+------------------------------------------------------------
 
 
 
