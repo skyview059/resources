@@ -83,6 +83,9 @@ usr/php83/usr/bin/php /usr/local/bin/composer install
 
 php artisan optimize:clear
 php artisan storage:link
+
+20i Terminal | Tested via SSH / Putty 
+/usr/php83/usr/bin/php hrm.flickoffice.com/artisan queue:work --stop-when-empty
 ------------------------------------------------------------
 
 
