@@ -43,6 +43,18 @@ NODE & NPM Install ( setup node app from cpanel then use terminal )
 source /home/freelan8/nodevenv/hrm.freelancerklub.com/22/bin/activate && cd /home/freelan8/hrm.freelancerklub.com
 
 
+----------------------------------------------
+Cleanup Tmp & Cache File from cPanele Account
+----------------------------------------------
+npm cache clean --force
+rm -rf ~/.composer/cache
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+----------------------------------------------
+
+
 How To Clone A Private Github Repository And Deploy It To Cpanel
 https://www.youtube.com/watch?v=dsxRBw3qaN0
 
