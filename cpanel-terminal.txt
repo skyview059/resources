@@ -102,5 +102,10 @@ php artisan storage:link
 
 
 
-
+Remove from repository (if committed): 
+If the file was accidentally committed to your Git repository, 
+you need to remove it from source control using the following command in your terminal:
+------------------------------------------------------------
+$_git command > find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+------------------------------------------------------------
 
