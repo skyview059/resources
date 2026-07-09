@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\runas]
+@="Open with Notepad as Administrator"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\*\shell\runas\command]
+@="notepad.exe \"%1\""
