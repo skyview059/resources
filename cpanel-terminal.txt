@@ -10,6 +10,10 @@ ea-php83 /home/freelan8/bin/composer update --no-dev --optimize-autoloader
 ea-php83 /home/freelan8/bin/composer dump-autoload
 
 ea-php83 /home/freelan8/bin/composer require spatie/image 
+
+
+ea-php83 /usr/local/bin/composer install --no-dev --optimize-autoloader
+
 ---------------------------------------------------------
 
 
