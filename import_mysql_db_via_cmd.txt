@@ -1,6 +1,8 @@
 1. GoTo your mysql folder
    My Path D:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\ ( into dir url type "cmd" & press enter key )
 
+   New Path: F:\laragon\bin\mysql\mysql-8.0.39-winx64\bin\
+
 2. into terminal type "mysql -u root -p " and press enter & press enter key for empty password 
 3. mysql> USE my_database;
 3. mysql> "SOURCE /path/to/file.sql" run command
